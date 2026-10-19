@@ -106,3 +106,12 @@ No requiere build ni dependencias de Node.
 - `content/release-content.json` vincula el sitio con el handoff de inQRedible 2.5.0 y registra `legal-2.5.0-v1`, proveedores, catálogo, límites y checkpoints externos.
 - Las home incluyen `SoftwareApplication`, `WebSite`, `Organization` y `FAQPage` en JSON-LD.
 - Las guías long-tail cubren búsquedas de alta intención: QR con logo, QR Wi-Fi y generador de códigos de barras para iPhone.
+
+## ListoParte
+
+El apartado independiente `/listoparte/` contiene soporte y privacidad de ListoParte:
+
+- Inglés: `/listoparte/support.html` y `/listoparte/privacy.html`.
+- Español: `/listoparte/es/support.html` y `/listoparte/es/privacy.html`.
+
+Generado desde `LavinWorks/ListoParte/scripts/build_support_site.py`, con la política embebida de la app y contacto público `support@inqredibleapp.com`. Sin scripts, cookies ni analítica. La publicación de estas páginas no publica la app en App Store.
